@@ -4,6 +4,8 @@
 
 * Docker compose file for the new node must use the original genesis.json from the parent network.
 
+* Start from `istanbul setup --num 1 --docker-compose --save`
+
 * Constellation `--othernodes` must be the list from parent network
 
 * `istanbul.propose` the new node from each node (n/2 + 1)
@@ -21,4 +23,4 @@
     - [x] For local docker (parent and new node)
     - [ ] For an external network with public IP Addresses (parent and new node on public addresses)
 - [ ] Can we leverage/modify istanbul-tools here?
-- []
+- [ ] Need to generate the extradata

@@ -34,7 +34,7 @@ Version : 1.7.2-stable
 ### Metamask
 From their website *MetaMask is a bridge that allows you to visit the distributed web of tomorrow in your browser today. It allows you to run Ethereum dApps right in your browser without running a full Ethereum node. MetaMask includes a secure identity vault, providing a user interface to manage your identities on different sites and sign blockchain transactions.*
 
-It is understood that all Ledgerium Dapps will be authorized to perform actions on the blockchain using the metamask plugin.
+It is understood that all Ledgerium Dapps will be authorized to perform actions on the blockchain using the metamask plugin. You can also use MEW (Myetherwallet) 
 
 ### Web3 JS
 

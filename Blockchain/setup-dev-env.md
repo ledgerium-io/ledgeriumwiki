@@ -1,4 +1,4 @@
-# Setting up a development environment for running Ledgerium dapps and the blockchain core
+# Setting up a development environment for running Ledgerium dapps and the blockchain core nodes
 
 The blockchain ecosystem is a combination of multiple technologies that come together. It is overwhelming to know that so much has been achieved in a short span. The tech stacks range from  (not limited to this list) GoLang, NodeJs, Haskell, Metamask, Solidity and supporting Web3 technologies. Hence this will always remain as a living document for the team.
 

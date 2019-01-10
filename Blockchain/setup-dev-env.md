@@ -1,4 +1,4 @@
-# Setting up a development environment for running Ledgerium Dapps and the blockchain core
+# Setting up a development environment for running Ledgerium dapps and the blockchain core nodes
 
 The blockchain ecosystem is a combination of multiple technologies that come together. It is overwhelming to know that so much has been achieved in a short span. The tech stacks range from  (not limited to this list) GoLang, NodeJs, Haskell, Metamask, Solidity and supporting Web3 technologies. Hence this will always remain as a living document for the team.
 
@@ -34,7 +34,7 @@ Version : 1.7.2-stable
 ### Metamask
 From their website *MetaMask is a bridge that allows you to visit the distributed web of tomorrow in your browser today. It allows you to run Ethereum dApps right in your browser without running a full Ethereum node. MetaMask includes a secure identity vault, providing a user interface to manage your identities on different sites and sign blockchain transactions.*
 
-It is understood that all Ledgerium Dapps will be authorized to perform actions on the blockchain using the metamask plugin.
+It is understood that all Ledgerium Dapps will be authorized to perform actions on the blockchain using the metamask plugin. You can also use MEW (Myetherwallet) 
 
 ### Web3 JS
 

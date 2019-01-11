@@ -1,99 +1,137 @@
 # Setup blockchain "addon" node on a fresh linux machine
 
-The blockchain ecosystem is a combination of multiple technologies that come together. It is overwhelming to know that so much has been achieved in a short span. The tech stacks range from  (not limited to this list) GoLang, NodeJs, Haskell, Metamask, Solidity and supporting Web3 technologies. Hence this will always remain as a living document for the team.
+The blockchain ecosystem is a combination of multiple technologies that come together. It is overwhelming to know that so much has been achieved in a short span. The tech stacks range from (not limited to this list) GoLang, NodeJs, Haskell, Metamask, Solidity and supporting Web3 technologies. Hence this will always remain as a living document for the team.
+
+## Install Docker CE 
+
+### SET UP THE REPOSITORY 
+
+Reference: https://docs.docker.com/install/linux/docker-ce/ubuntu/
+
+1. Update the `apt` package index:
+```
+$ sudo apt-get update
+```
+
+2. Install packages to allow `apt` to use a repository over HTTPS:
+
+```
+$ sudo apt-get install \
+apt-transport-https \
+ca-certificates \
+curl software-properties-common
+```
+
+3. Add Docker’s official GPG key: 
+```
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - 
+```
+should return OK
 
 
-//Docker Installation 
-Take formatting text from https://docs.docker.com/install/linux/docker-ce/ubuntu/ 
+```
+sudo apt-key fingerprint 0EBFCD88 
 
-Install Docker CE
-SET UP THE REPOSITORY
-sudo apt-get update
+pub   4096R/0EBFCD88 2017-02-22
+      Key fingerprint = 9DC8 5822 9FC7 DD38 854A  E2D8 8D81 803C 0EBF CD88
+uid                  Docker Release (CE deb) <docker@docker.com>
+sub   4096R/F273FCD8 2017-02-22
+```
 
-sudo apt-get install \
-    apt-transport-https \
-    ca-certificates \
-    curl \
-    software-properties-common
-Add Docker’s official GPG key:
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - should return OK
+4. Use the following command to set up the stable repository. You always need the stable repository, even if you want to install builds from the edge or test repositories as well. To add the edge or test repository, add the word edge or test (or both) after the word stable in the commands below.
 
-sudo apt-key fingerprint Check “9DC8 5822 9FC7 DD38 854A  E2D8 8D81 803C 0EBF CD88” /etc/apt/trusted.gpg
---------------------
-pub   rsa4096 2017-02-22 [SCEA]
-      9DC8 5822 9FC7 DD38 854A  E2D8 8D81 803C 0EBF CD88
-uid           [ unknown] Docker Release (CE deb) <docker@docker.com>
-sub   rsa4096 2017-02-22 [S]
+```
+Note: The lsb_release -cs sub-command below returns the name of your Ubuntu distribution, such as xenial. Sometimes, in a distribution like Linux Mint, you might need to change $(lsb_release -cs) to your parent Ubuntu distribution. For example, if you are using Linux Mint Rafaela, you could use trusty.
+```
 
-sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
-sudo apt-get update
+```
+$ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" sudo apt-get update
+```
 
-apt-get install docker-ce
+### Install Docker CE
 
+1. Update the apt package index.
+
+```
+$ sudo apt-get update
+```
+
+2. Install the latest version of Docker CE, or go to the next step to install a specific version:
+```
+$ sudo apt-get install docker-ce
+```
+
+3. Verify that Docker CE is installed correctly by running the `hello-world` image.
+```
 sudo docker run hello-world
+```
 
-Install Docker Compose .. https://docs.docker.com/compose/install/ 
-Install Docker Engine version 1.7.1 or greater: ...
-sudo curl -L "https://github.com/docker/compose/releases/download/1.23.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+### Install Docker Compose 
 
-Apply executable permissions to the binary: $ chmod +x /usr/local/bin/docker-compose.
-Optionally, install command completion for the bash and zsh shell.
-Test the installation by docker-compose
+Reference : https://docs.docker.com/compose/install/ 
 
+1. Run this command to download the latest version of Docker Compose:
+```
+Note : Install Docker Engine version 1.7.1 or greater: ... 
+```
+```
+$ sudo curl -L "https://github.com/docker/compose/releases/download/1.23.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+```
 
-//Docker Compose installation
+2. Apply executable permissions to the binary: 
+```
+$ chmod +x /usr/local/bin/docker-compose. 
+```
+> 1. Optionally, install command completion for the bash and zsh shell. 
+> 2. Test the installation by docker-compose
+> ```    
+> $ docker-compose --version
+> docker-compose version 1.23.2, build 1110ad01
+> ``` 
 
-chmod +x /usr/local/bin/docker-compose
-Docker-compose command should work
+### Docker Compose installation
+```
+chmod +x /usr/local/bin/docker-compose Docker-compose command should work
+```
 
-To create the docker group and add your user:
-Create the docker group. $ sudo groupadd docker.
-Add your user to the docker group. $ sudo usermod -aG docker $USER.
-Log out and log back in so that your group membership is re-evaluated. ...
-Verify that you can run docker commands without sudo .
+#### To create the docker group and add your user: 
 
+1. Create the docker group. 
+```
+$ sudo groupadd docker
+```
 
-Install node from https://linuxize.com/post/how-to-install-node-js-on-ubuntu-18.04/ 
+2. Add your user to the docker group. 
 
-sudo apt-get update && sudo apt-get -y upgrade
-curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash -
-sudo apt-get install -y nodejs
+```
+$ sudo usermod -aG docker $USER
+```
 
+3.  Log out and log back in so that your group membership is re-evaluated.
 
+> If testing on a virtual machine, it may be necessary to restart the virtual machine for changes to take effect.
 
-Blockchain “addon” Node setup - To be script 
+> On a desktop Linux environment such as X Windows, log out of your session completely and then log back in.
 
-mkdir ledgerium
-cd ledgerium/
-git clone http://github.com/ledgerium/ledgeriumnetwork.git 
+4. Verify that you can run docker commands without sudo .
+```
+$ docker run hello-world
+```
 
-git clone http://github.com/ledgerium/ledgeriumtools.git
-cd ledgeriumtools/
-npm install
-vi initialparams.json
-//change modeType = ‘addon’
-//nodeName = $(hostname)
-docker network create -d bridge --subnet 172.19.240.0/24 --gateway 172.19.240.1 test_net
+## Install node from https://linuxize.com/post/how-to-install-node-js-on-ubuntu-18.04/
 
-node index.js
-//Copy the externalised genesis and static-nodes files to ‘tmp’ folder
-cp ../ledgeriumnetwork/* ./outputs/tmp/
-cd output
-docker-compose ps -a
+```
+sudo apt-get update && sudo apt-get -y upgrade curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash - sudo apt-get install -y nodejs
+```
 
-//Check 
-the ./logs/constellationLogs and  ./logs/gethLogs folders are created
-‘docker ps -a’ shows 3 containers running
-Geth attach command work
+## Blockchain “addon” Node setup - To be script
 
+```
+mkdir ledgerium cd ledgerium/ git clone http://github.com/ledgerium/ledgeriumnetwork.git
+```
 
+git clone http://github.com/ledgerium/ledgeriumtools.git cd ledgeriumtools/ npm install vi initialparams.json //change modeType = ‘addon’ //nodeName = $(hostname) docker network create -d bridge --subnet 172.19.240.0/24 --gateway 172.19.240.1 test_net
 
+node index.js //Copy the externalised genesis and static-nodes files to ‘tmp’ folder cp ../ledgeriumnetwork/* ./outputs/tmp/ cd output docker-compose ps -a
 
-
-
-
-
-
-
-
-
+//Check the ./logs/constellationLogs and ./logs/gethLogs folders are created ‘docker ps -a’ shows 3 containers running Geth attach command work

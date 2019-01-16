@@ -118,20 +118,60 @@ $ sudo usermod -aG docker $USER
 $ docker run hello-world
 ```
 
-## Install node from https://linuxize.com/post/how-to-install-node-js-on-ubuntu-18.04/
+## Install NodeJS 
+Reference:  https://linuxize.com/post/how-to-install-node-js-on-ubuntu-18.04/
 
 ```
 sudo apt-get update && sudo apt-get -y upgrade curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash - sudo apt-get install -y nodejs
 ```
 
-## Blockchain “addon” Node setup - To be script
+## Blockchain “addon” Node setup
+
+### 1. Clone Ledgerium network
+
 
 ```
-mkdir ledgerium cd ledgerium/ git clone http://github.com/ledgerium/ledgeriumnetwork.git
+mkdir ledgerium 
+cd ledgerium
+git clone http://github.com/ledgerium/ledgeriumnetwork.git
 ```
 
-git clone http://github.com/ledgerium/ledgeriumtools.git cd ledgeriumtools/ npm install vi initialparams.json //change modeType = ‘addon’ //nodeName = $(hostname) docker network create -d bridge --subnet 172.19.240.0/24 --gateway 172.19.240.1 test_net
+### 2. Clone Ledgerium tools
 
-node index.js //Copy the externalised genesis and static-nodes files to ‘tmp’ folder cp ../ledgeriumnetwork/* ./outputs/tmp/ cd output docker-compose ps -a
+```
+git clone http://github.com/ledgerium/ledgeriumtools.git 
+cd ledgeriumtools
+npm install 
+```
 
-//Check the ./logs/constellationLogs and ./logs/gethLogs folders are created ‘docker ps -a’ shows 3 containers running Geth attach command work
+Update initialparams.json file :
+```
+vi initialparams.json 
+```
+Change modeType = ‘addon’ and nodeName = $(hostname) 
+
+### 3. Create a docker network
+```
+docker network create -d bridge --subnet 172.19.240.0/24 --gateway 172.19.240.1 test_net
+```
+
+### 4. Run Ledgerium tools application
+
+```
+node index.js
+```
+
+Copy the externalised genesis and static-nodes files to ‘tmp’ folder
+```
+cp ../ledgeriumnetwork/* ./outputs/tmp/ 
+cd output 
+docker-compose ps -a
+```
+
+### 5. Check application status
+
+Check the ./logs/constellationLogs and ./logs/gethLogs folders are created.
+
+* `docker ps -a` shows 3 containers 
+
+* Running `geth attach` command will work.

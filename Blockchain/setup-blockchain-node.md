@@ -157,13 +157,19 @@ docker network create -d bridge --subnet 172.19.240.0/24 --gateway 172.19.240.1 
 
 ### 4. Run Ledgerium tools application
 
+Before starting the addon node, create a directory `/output/tmp` in ledgerium tools and copy the externalised genesis and static-nodes files from ledgerium network to `tmp` folder
+```
+cp ../ledgeriumnetwork/* ./outputs/tmp/
+```
+
+Run ledgerium tools application
 ```
 node index.js
 ```
 
-Copy the externalised genesis and static-nodes files to ‘tmp’ folder
+docker-compose will be genetared in output folder
+
 ```
-cp ../ledgeriumnetwork/* ./outputs/tmp/ 
 cd output 
 docker-compose ps -a
 ```

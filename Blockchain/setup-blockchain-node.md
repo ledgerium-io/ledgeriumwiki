@@ -40,12 +40,13 @@ sub   4096R/F273FCD8 2017-02-22
 
 4. Use the following command to set up the stable repository. You always need the stable repository, even if you want to install builds from the edge or test repositories as well. To add the edge or test repository, add the word edge or test (or both) after the word stable in the commands below.
 
-```
-Note: The lsb_release -cs sub-command below returns the name of your Ubuntu distribution, such as xenial. Sometimes, in a distribution like Linux Mint, you might need to change $(lsb_release -cs) to your parent Ubuntu distribution. For example, if you are using Linux Mint Rafaela, you could use trusty.
-```
 
 ```
 $ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" sudo apt-get update
+```
+
+```
+Note: The lsb_release -cs sub-command below returns the name of your Ubuntu distribution, such as xenial. Sometimes, in a distribution like Linux Mint, you might need to change $(lsb_release -cs) to your parent Ubuntu distribution. For example, if you are using Linux Mint Rafaela, you could use trusty.
 ```
 
 ### Install Docker CE
@@ -71,13 +72,13 @@ sudo docker run hello-world
 Reference : https://docs.docker.com/compose/install/ 
 
 1. Run this command to download the latest version of Docker Compose:
-```
-Note : Install Docker Engine version 1.7.1 or greater: ... 
-```
+
 ```
 $ sudo curl -L "https://github.com/docker/compose/releases/download/1.23.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 ```
-
+```
+Note : Install Docker Engine version 1.7.1 or greater: ... 
+```
 2. Apply executable permissions to the binary: 
 ```
 $ chmod +x /usr/local/bin/docker-compose. 
@@ -88,11 +89,6 @@ $ chmod +x /usr/local/bin/docker-compose.
 > $ docker-compose --version
 > docker-compose version 1.23.2, build 1110ad01
 > ``` 
-
-### Docker Compose installation
-```
-chmod +x /usr/local/bin/docker-compose Docker-compose command should work
-```
 
 #### To create the docker group and add your user: 
 
@@ -122,7 +118,12 @@ $ docker run hello-world
 Reference:  https://linuxize.com/post/how-to-install-node-js-on-ubuntu-18.04/
 
 ```
-sudo apt-get update && sudo apt-get -y upgrade curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash - sudo apt-get install -y nodejs
+sudo apt-get update && 
+sudo apt-get -y upgrade &&
+curl -sL https://deb.nodesource.com/setup_8.x -o nodesource_setup.sh &&
+sudo bash nodesource_setup.sh &&
+sudo apt-get install nodejs &&
+rm nodesource_setup.sh
 ```
 
 ## Blockchain “addon” Node setup
@@ -157,9 +158,9 @@ docker network create -d bridge --subnet 172.19.240.0/24 --gateway 172.19.240.1 
 
 ### 4. Run Ledgerium tools application
 
-Before starting the addon node, create a directory `/output/tmp` in ledgerium tools and copy the externalised genesis and static-nodes files from ledgerium network to `tmp` folder
+Before starting the addon node, create a directory /output/tmp in ledgerium tools and copy the externalised genesis and static-nodes files from ledgerium network to ‘tmp’ folder
 ```
-cp ../ledgeriumnetwork/* ./outputs/tmp/
+cp ../ledgeriumnetwork/* ./output/tmp/
 ```
 
 Run ledgerium tools application
@@ -171,7 +172,7 @@ docker-compose will be genetared in output folder
 
 ```
 cd output 
-docker-compose ps -a
+sudo docker-compose up -d
 ```
 
 ### 5. Check application status

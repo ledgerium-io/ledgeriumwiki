@@ -149,11 +149,13 @@ Update initialparams.json file :
 ```
 vi initialparams.json 
 ```
-Change modeType = ‘addon’, nodeName = $(hostname) and change the value of domainName
+Change `modeType = addon`, `nodeName = $(hostname)` and `domainName`
 
-```
-Note: User has to edit these values in the json file before running ledgerium tools application
-```
+
+Note: 
+* User has to edit these values in the json file before running ledgerium tools application
+* `domainName` is `optional` for `addon` mode
+
 ### 3. Create a docker network
 ```
 docker network create -d bridge --subnet 172.19.240.0/24 --gateway 172.19.240.1 test_net
@@ -181,7 +183,9 @@ sudo docker-compose up -d
 ### 5. Check application status
 
 Check the ./logs/constellationLogs and ./logs/gethLogs folders are created.
-
-* `docker ps -a` shows 3 containers 
-
-* Running `geth attach` command will work.
+* `docker ps -a` shows list of containers mentioned below
+    
+    * Quorum node, governance_app_ui and constellation for each node
+    * Quorum maker 
+    * Eth-stats
+* Running `geth attach` command will work for quorum nodes.

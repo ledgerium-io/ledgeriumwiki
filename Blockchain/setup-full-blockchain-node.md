@@ -140,7 +140,7 @@ Update initialparams.json file :
 ```
 vi initialparams.json 
 ```
-Change modeType = ‘full, nodeName = $(hostname) and change the value of domainName
+Change `modeType = full`, `nodeName = $(hostname)` and `domainName`
 
 ```
 Note: User has to edit these values in the json file before running ledgerium tools application
@@ -169,9 +169,12 @@ sudo docker-compose up -d
 
 Check the ./logs/constellationLogs and ./logs/gethLogs folders are created.
 
-* `docker ps -a` shows 3 containers 
-
-* Running `geth attach` command will work.
+* `docker ps -a` shows list of containers mentioned below
+    
+    * Quorum node, governance_app_ui and constellation for each node
+    * Quorum maker 
+    * Eth-stats
+* Running `geth attach` command will work for quorum nodes.
 
 ### 5. Update ledgerium network repository
 After running `ledgeriumtools` application, `ledgeriumnetwork` folder ( which contains genesis and static-nodes files) will be created outside the ledgeriumtools folder. Push those files to `ledgeriumnetwork` repository.

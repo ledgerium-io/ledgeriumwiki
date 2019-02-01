@@ -1,4 +1,4 @@
-# Setup blockchain "addon" node on a fresh linux machine
+# Setup blockchain "full" node on a fresh linux machine
 
 The blockchain ecosystem is a combination of multiple technologies that come together. It is overwhelming to know that so much has been achieved in a short span. The tech stacks range from (not limited to this list) GoLang, NodeJs, Haskell, Metamask, Solidity and supporting Web3 technologies. Hence this will always remain as a living document for the team.
 
@@ -24,13 +24,13 @@ curl software-properties-common
 
 3. Add Docker’s official GPG key: 
 ```
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - 
+$ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - 
 ```
 should return OK
 
 
 ```
-sudo apt-key fingerprint 0EBFCD88 
+$ sudo apt-key fingerprint 0EBFCD88 
 
 pub   4096R/0EBFCD88 2017-02-22
       Key fingerprint = 9DC8 5822 9FC7 DD38 854A  E2D8 8D81 803C 0EBF CD88
@@ -64,7 +64,7 @@ $ sudo apt-get install docker-ce
 
 3. Verify that Docker CE is installed correctly by running the `hello-world` image.
 ```
-sudo docker run hello-world
+$ sudo docker run hello-world
 ```
 
 ### Install Docker Compose 
@@ -126,19 +126,10 @@ sudo apt-get install nodejs &&
 rm nodesource_setup.sh
 ```
 
-## Blockchain “addon” Node setup
+## Blockchain full Node setup
 
-### 1. Clone Ledgerium network
-
-
-```
-mkdir ledgerium 
-cd ledgerium
-git clone http://github.com/ledgerium/ledgeriumnetwork.git
-```
-
-### 2. Clone Ledgerium tools
-
+### 1. Clone Ledgerium tools
+Ledgerium tools is used to create a docker-compose.yaml file
 ```
 git clone http://github.com/ledgerium/ledgeriumtools.git 
 cd ledgeriumtools
@@ -149,19 +140,18 @@ Update initialparams.json file :
 ```
 vi initialparams.json 
 ```
-Change modeType = ‘addon’ and nodeName = $(hostname) 
+Change `modeType = full`, `nodeName = $(hostname)` and `domainName`
 
-### 3. Create a docker network
+```
+Note: User has to edit these values in the json file before running ledgerium tools application
+```
+
+### 2. Create a docker network
 ```
 docker network create -d bridge --subnet 172.19.240.0/24 --gateway 172.19.240.1 test_net
 ```
 
-### 4. Run Ledgerium tools application
-
-Before starting the addon node, create a directory /output/tmp in ledgerium tools and copy the externalised genesis and static-nodes files from ledgerium network to ‘tmp’ folder
-```
-cp ../ledgeriumnetwork/* ./output/tmp/
-```
+### 3. Run Ledgerium tools application
 
 Run ledgerium tools application
 ```
@@ -175,10 +165,21 @@ cd output
 sudo docker-compose up -d
 ```
 
-### 5. Check application status
+### 4. Check application status
 
 Check the ./logs/constellationLogs and ./logs/gethLogs folders are created.
 
-* `docker ps -a` shows 3 containers 
+* `docker ps -a` shows list of containers mentioned below
+    
+    * Quorum node, governance_app_ui and constellation for each node
+    * Quorum maker 
+    * Eth-stats
+* Running `geth attach` command will work for quorum nodes.
 
-* Running `geth attach` command will work.
+### 5. Update ledgerium network repository
+After running `ledgeriumtools` application, `ledgeriumnetwork` folder ( which contains genesis and static-nodes files) will be created outside the ledgeriumtools folder. Push those files to `ledgeriumnetwork` repository.
+
+```
+cd ../../ledgeriumnetwork
+git push https://github.com/ledgerium/ledgeriumnetwork.git
+```

@@ -1,12 +1,15 @@
 ## Istanbul Consensus
 
-1. istanbul package provides ways of interacting with the consensus mechanism, it allows new validators to be added and existing validators to be removed
-2. it allows managing the number of validatos by a voting mechanism which involves at least 2F+1 nodes
-3. The details of active nodes can be found in the extra data of each block that has been committed
-		using the istanbul-tools one can decode the data in the following way
-		istanbul extra decode --extradata "<extradata>"
-4. This extra data contains one seal and 2F+1 committed seals, these committed seals aren't included when the block hash is calculated
-5. the committed seals maybe different in different blocks, but as this is not included in the blockhash, the hash can be used to verify across other nodes
+1. Istanbul package provides ways of interacting with the consensus mechanism, it allows new validators to be added and existing validators to be removed
+2. It allows managing the number of validators by a voting mechanism which involves at least 2F+1 nodes
+3. The details of active nodes can be found in the extra data of each block that has been committed using the istanbul-tools. One can decode the data in the following way 
+   
+    ```
+	istanbul extra decode --extradata "<extradata>
+	```
+
+4. This extra data contains one seal and 2F+1 committed seals, these committed seals are omitted when the block hash is calculated
+5. The committed seals maybe different in different blocks, but as this is not included in the blockhash, the hash can be used to verify across other nodes
 
 ## istanbul.getSnapshot()
 
@@ -32,29 +35,28 @@ This call shows the current state of the blockchain and gives the below structur
 	}]
 }
 ```
-* epoch : indicates the number of blocks after which the proposal which hasn't been resolved is cleared
-* hash  : the current block hash at the given block number
-* tally : the object maintaining the current state of votes of all the validators
-* validators : the list of all the addresses which can act as validators
-* votes : the individual votes casted by validators as an array
-* authorize : true - proposal to add as a validator, false - rproposal to remove as a validator
+* epoch : Indicates the number of blocks after which the proposal which hasn't been resolved is cleared
+* hash  : The current block hash at the given block number
+* tally : The object maintaining the current state of votes of all the validators
+* validators : The list of all the addresses which can act as validators
+* votes : The individual votes casted by validators as an array
+* authorize : true - proposal to add as a validator, false - proposal to remove as a validator
 
 ## istanbul.propose()
 
-	This method is used to start voting/vote for an existing proposal to add or remove a validator
-	takes as argument the coinbase of the node and a bool value indicating if the validator is to be added or removed
+This method is used to start voting/vote for an existing proposal; to add or remove a validator takes as argument the coinbase of the node and a bool value indicating if the validator is to be added or removed.
 
 ## istanbul.getSnapshotAtHash()
 	
-	Used to get the current state of the voting and active validators as of a particular block hash, takes as argument a block hash
+Used to get the current state of the voting and active validators as of a particular block hash, takes as argument a block hash
 
 ## istanbul.getCandidates(callback)
 	
-	Gives all the addresses with the respective votes casted by that particular node as a error first callback
+Gives all the addresses with the respective votes casted by that particular node as a error first callback
 
 ## istanbul.getValidators()
 
-	Returns the list of active validators who can commit a block
+Returns the list of active validators who can commit a block
 
 Every block header contains the following fields
 

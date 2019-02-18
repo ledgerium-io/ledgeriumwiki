@@ -177,7 +177,7 @@ Check the ./logs/constellationLogs and ./logs/gethLogs folders are created.
 * Running `geth attach` command will work for quorum nodes.
 
 ### 5. Update ledgerium network repository
-After running `ledgeriumtools` application, `ledgeriumnetwork` folder ( which contains genesis and static-nodes files) will be created outside the ledgeriumtools folder. Push those files to `ledgeriumnetwork` repository.
+After running `ledgeriumtools` application, `ledgeriumnetwork` folder ( which contains genesis and static-nodes files) will be created outside the `ledgeriumtools` folder. Push those files to `ledgeriumnetwork` repository.
 
 ```
 cd ../../ledgeriumnetwork

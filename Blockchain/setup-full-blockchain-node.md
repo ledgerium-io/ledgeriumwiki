@@ -158,7 +158,7 @@ Run ledgerium tools application. Note: 'Number of Mnemonics' refers to the amoun
 node index.js
 ```
 
-docker-compose will be genetared in output folder
+docker-compose will be generated in output folder
 
 ```
 cd output

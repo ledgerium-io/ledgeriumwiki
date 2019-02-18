@@ -129,7 +129,7 @@ rm nodesource_setup.sh
 ## Blockchain full Node setup
 
 ### 1. Clone Ledgerium tools
-Ledgerium tools is used to create a docker-compose.yaml file
+Ledgerium tools is used to create a docker-compose.yml file
 ```
 git clone http://github.com/ledgerium/ledgeriumtools.git
 cd ledgeriumtools

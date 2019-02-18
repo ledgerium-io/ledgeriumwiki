@@ -138,7 +138,7 @@ git clone http://github.com/ledgerium/ledgeriumnetwork.git
 ```
 
 ### 2. Clone Ledgerium tools
-Ledgerium tools is used to create a docker-compose.yaml file
+Ledgerium tools is used to create a docker-compose.yml file
 ```
 git clone http://github.com/ledgerium/ledgeriumtools.git
 cd ledgeriumtools

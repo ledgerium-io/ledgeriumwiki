@@ -2,9 +2,9 @@
 
 The blockchain ecosystem is a combination of multiple technologies that come together. It is overwhelming to know that so much has been achieved in a short span. The tech stacks range from (not limited to this list) GoLang, NodeJs, Haskell, Metamask, Solidity and supporting Web3 technologies. Hence this will always remain as a living document for the team.
 
-## Install Docker CE 
+## Install Docker CE
 
-### SET UP THE REPOSITORY 
+### SET UP THE REPOSITORY
 
 Reference: https://docs.docker.com/install/linux/docker-ce/ubuntu/
 
@@ -22,15 +22,15 @@ ca-certificates \
 curl software-properties-common
 ```
 
-3. Add Docker’s official GPG key: 
+3. Add Docker’s official GPG key:
 ```
-$ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - 
+$ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 ```
 should return OK
 
 
 ```
-$ sudo apt-key fingerprint 0EBFCD88 
+$ sudo apt-key fingerprint 0EBFCD88
 
 pub   4096R/0EBFCD88 2017-02-22
       Key fingerprint = 9DC8 5822 9FC7 DD38 854A  E2D8 8D81 803C 0EBF CD88
@@ -67,9 +67,9 @@ $ sudo apt-get install docker-ce
 $ sudo docker run hello-world
 ```
 
-### Install Docker Compose 
+### Install Docker Compose
 
-Reference : https://docs.docker.com/compose/install/ 
+Reference : https://docs.docker.com/compose/install/
 
 1. Run this command to download the latest version of Docker Compose:
 
@@ -77,27 +77,27 @@ Reference : https://docs.docker.com/compose/install/
 $ sudo curl -L "https://github.com/docker/compose/releases/download/1.23.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 ```
 ```
-Note : Install Docker Engine version 1.7.1 or greater: ... 
+Note : Install Docker Engine version 1.7.1 or greater: ...
 ```
-2. Apply executable permissions to the binary: 
+2. Apply executable permissions to the binary:
 ```
-$ chmod +x /usr/local/bin/docker-compose. 
+$ chmod +x /usr/local/bin/docker-compose.
 ```
-> 1. Optionally, install command completion for the bash and zsh shell. 
+> 1. Optionally, install command completion for the bash and zsh shell.
 > 2. Test the installation by docker-compose
 > ```    
 > $ docker-compose --version
 > docker-compose version 1.23.2, build 1110ad01
-> ``` 
+> ```
 
-#### To create the docker group and add your user: 
+#### To create the docker group and add your user:
 
-1. Create the docker group. 
+1. Create the docker group.
 ```
 $ sudo groupadd docker
 ```
 
-2. Add your user to the docker group. 
+2. Add your user to the docker group.
 
 ```
 $ sudo usermod -aG docker $USER
@@ -114,11 +114,11 @@ $ sudo usermod -aG docker $USER
 $ docker run hello-world
 ```
 
-## Install NodeJS 
+## Install NodeJS
 Reference:  https://linuxize.com/post/how-to-install-node-js-on-ubuntu-18.04/
 
 ```
-sudo apt-get update && 
+sudo apt-get update &&
 sudo apt-get -y upgrade &&
 curl -sL https://deb.nodesource.com/setup_8.x -o nodesource_setup.sh &&
 sudo bash nodesource_setup.sh &&
@@ -131,14 +131,14 @@ rm nodesource_setup.sh
 ### 1. Clone Ledgerium tools
 Ledgerium tools is used to create a docker-compose.yaml file
 ```
-git clone http://github.com/ledgerium/ledgeriumtools.git 
+git clone http://github.com/ledgerium/ledgeriumtools.git
 cd ledgeriumtools
-npm install 
+npm install
 ```
 
 Update initialparams.json file :
 ```
-vi initialparams.json 
+vi initialparams.json
 ```
 Change `modeType = full`, `nodeName = $(hostname)` and `domainName`
 
@@ -153,7 +153,7 @@ docker network create -d bridge --subnet 172.19.240.0/24 --gateway 172.19.240.1 
 
 ### 3. Run Ledgerium tools application
 
-Run ledgerium tools application
+Run ledgerium tools application. Note: 'Number of Mnemonics' refers to the amount of nodes you want to spawn (minimum 4)
 ```
 node index.js
 ```
@@ -161,7 +161,7 @@ node index.js
 docker-compose will be genetared in output folder
 
 ```
-cd output 
+cd output
 sudo docker-compose up -d
 ```
 
@@ -170,9 +170,9 @@ sudo docker-compose up -d
 Check the ./logs/constellationLogs and ./logs/gethLogs folders are created.
 
 * `docker ps -a` shows list of containers mentioned below
-    
+
     * Quorum node, governance_app_ui and constellation for each node
-    * Quorum maker 
+    * Quorum maker
     * Eth-stats
 * Running `geth attach` command will work for quorum nodes.
 

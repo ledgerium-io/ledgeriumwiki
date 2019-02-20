@@ -5,8 +5,8 @@ The blockchain ecosystem is a combination of multiple technologies that come tog
 ### Basics
 GoLang - There are multiple versions of golang used in different parts of the go-ethereum/Quorum ecosystem. It is recommended to use a `gvm` go version manager to switch under a development environment.
 
-NodeJS - Multiple applications and scripts have been written in NodeJS due to the popularity of Web3 library and its support for browser and Nodejs. Fortunately (as of today) any latest version of NodeJS will be good to start. NPM is the package manager for NodeJS. 
-To begin with, 
+NodeJS - Multiple applications and scripts have been written in NodeJS due to the popularity of Web3 library and its support for browser and Nodejs. Fortunately (as of today) any latest version of NodeJS will be good to start. NPM is the package manager for NodeJS.
+To begin with,
 ```
 Install NodeJS
 
@@ -34,7 +34,7 @@ Version : 1.7.2-stable
 ### Metamask
 From their website *MetaMask is a bridge that allows you to visit the distributed web of tomorrow in your browser today. It allows you to run Ethereum dApps right in your browser without running a full Ethereum node. MetaMask includes a secure identity vault, providing a user interface to manage your identities on different sites and sign blockchain transactions.*
 
-It is understood that all Ledgerium Dapps will be authorized to perform actions on the blockchain using the metamask plugin. You can also use MEW (Myetherwallet) 
+It is understood that all Ledgerium Dapps will be authorized to perform actions on the blockchain using the metamask plugin. You can also use MEW (Myetherwallet)
 
 ### Web3 JS
 
@@ -44,7 +44,7 @@ Installation: https://github.com/ethereum/web3.js/
 ```
 npm install -g web3
 ```
-Version: 1.0.0 
+Version: 1.0.0
 
 ### Solc
 
@@ -53,7 +53,7 @@ Installation: https://solidity.readthedocs.io/en/latest/installing-solidity.html
 ```
 npm install -g solc
 ```
-Version: 0.5.2 (Ubuntu) and 0.5.1 (Mac) 
+Version: 0.5.2 (Ubuntu) and 0.5.1 (Mac)
 
 ### Truffle
 
@@ -72,10 +72,10 @@ Installation: https://truffleframework.com/truffle
 npm install -g truffle
 ```
 Requirements:
-* NodeJS v8.9.4 or later 
-* Windows, Linux or Mac OS X 
+* NodeJS v8.9.4 or later
+* Windows, Linux or Mac OS X
 
-### Ganache 
+### Ganache
 * A personal blockchain for Ethereum development you can use to deploy contracts, develop your applications, and run tests. It is available as both a desktop application as well as a command-line tool (formerly known as the TestRPC). Ganache is available for Windows, Mac, and Linux.
 * Comes with a full fledged GUI.
 
@@ -91,7 +91,7 @@ GitHub Inc. is a web-based hosting service for version control using Git.
 
 Available for Windows and Mac only
 
-Installation: 
+Installation:
 ```
 https://desktop.github.com/
 ```
@@ -100,7 +100,7 @@ https://desktop.github.com/
 
 Docker Hub is the world's largest library and community for container images
 
-Download: 
+Download:
 ```
 https://www.docker.com/products/docker-desktop
 ```
@@ -126,6 +126,4 @@ https://code.visualstudio.com/Download
 
 ## OS
 
-Windows, Linux or Mac OS X 
-
-
+Windows, Linux or Mac OS X

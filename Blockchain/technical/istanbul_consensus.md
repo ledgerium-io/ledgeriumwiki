@@ -2,8 +2,8 @@
 
 1. Istanbul package provides ways of interacting with the consensus mechanism, it allows new validators to be added and existing validators to be removed
 2. It allows managing the number of validators by a voting mechanism which involves at least 2F+1 nodes
-3. The details of active nodes can be found in the extra data of each block that has been committed using the istanbul-tools. One can decode the data in the following way 
-   
+3. The details of active nodes can be found in the extra data of each block that has been committed using the istanbul-tools. One can decode the data in the following way
+
     ```
 	istanbul extra decode --extradata "<extradata>
 	```
@@ -47,11 +47,11 @@ This call shows the current state of the blockchain and gives the below structur
 This method is used to start voting/vote for an existing proposal; to add or remove a validator takes as argument the coinbase of the node and a bool value indicating if the validator is to be added or removed.
 
 ## istanbul.getSnapshotAtHash()
-	
+
 Used to get the current state of the voting and active validators as of a particular block hash, takes as argument a block hash
 
 ## istanbul.getCandidates(callback)
-	
+
 Gives all the addresses with the respective votes casted by that particular node as a error first callback
 
 ## istanbul.getValidators()
@@ -61,7 +61,7 @@ Returns the list of active validators who can commit a block
 Every block header contains the following fields
 
 ```
-block = 
+block =
 {
 	difficulty: 1,
 	extraData: "",
@@ -86,14 +86,14 @@ When a block is sealed the block seal is computed as ECDSA(rlpHash(Block_Header)
 ## Istanbul Working
 
 1. For a new block to be committed the validators pick a new node as proposer which will be responsible to create a new block.
-2. This is broadcasted to all the validaotrs along with the pre-prepare message, making all the node's change their state to pre-prepared
+2. This is broadcasted to all the validators along with the pre-prepare message, making all the node's change their state to pre-prepared
 3. These validators now publish a prepare message
-4. Upon receiving 2F+1 pre-prepare messages from the validaotrs the proposer nodes prepares for the commit of the block 
-5. The new block will comprise of all the transactions submitted to that particular node, from all the transactions the block headers will be calculated 
+4. Upon receiving 2F+1 pre-prepare messages from the validators the proposer nodes prepares for the commit of the block
+5. The new block will comprise of all the transactions submitted to that particular node, from all the transactions the block headers will be calculated
 6. **The RLP hash of all the block header will give the resultant block hash, when published this block hash will be signed using the node's private key**
 7. **This signature signifies the seal of the block, which signifies that the block hash been sealed into the blockchain by a particular proposer.**
 8. And once this block has been pushed a commit message is sent along with the block details
 9. Each validator along with the proposer waits for 2F+1 commit messages from other blocks
-10. **Each node appends it's own signautre to the extra data of this block, this is the committed seal field in the extra data**
+10. **Each node appends it's own signature to the extra data of this block, this is the committed seal field in the extra data**
 11. Once each block has 2F+1 committed seals all the validators publish a new-round message
-12. The same process repeats once a new validator is chosen as a new block proposer 
+12. The same process repeats once a new validator is chosen as a new block proposer

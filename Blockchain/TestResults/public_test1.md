@@ -1,3 +1,7 @@
+### Faulty Node Test
+## Test A
+The main focus was to test the hypothesis that a correlation exists between the time elapsed when mining stopped and how long the mining took to restart when condition 2F+1 is satisified. It appears that the faster we satisify the condition, the faster mining restarts. However, when mining has been stopped for >2 hours, it has been observed mining will not resume again. 
+
 | FAULTY (F) | HEALTHY (H) | REQUIRED H FOR MINING (2F+1) | MINING EXPECTED | MINING ACTUAL | PASSED | TOTAL (F+H) | NOTES |
 |------------|-------------|-----------------------|-----------------|---------------|--------------------|-------------|-----------------------------------------------------------------------------------------------------------------------|
 | 2 | 7 | 5 | TRUE | TRUE | :white_check_mark: | 9 | Initialised  6H + 2F nodes on a fresh chain |

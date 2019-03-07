@@ -52,33 +52,33 @@ cd ledgeriumtools
 
 4. Run the initalisation file
 ```
-node index
+node index.js
 ```
 5. When promted, enter the number (n) of nodes you want to run
 * The `mnemonics` and `password `translate to the `node keys` and `password`
 * The number of nodes brought up is equal to the number of keys/menmonics provided in the file i.e. `n keys` signifies `n nodes` with the respective keys as coinbase/etherbase
 * Keep in mind `mnemomics must be unique`
 ```
->Number of Mnemonics : 
+> Number of Mnemonics : 
  4
 ```  
 6. Enter Mnemonics and Passwords as prompted, e.g:
 ```
->Enter Mnemonic 0 :
+> Enter Mnemonic 0 :
  node1
->Enter Password 0 :
+> Enter Password 0 :
  password1
->Enter Mnemonic 1 :
+> Enter Mnemonic 1 :
  node2
->Enter Password 1 :
+> Enter Password 1 :
  password2
->Enter Mnemonic 2 :
+> Enter Mnemonic 2 :
  node3
->Enter Password 2 :
+> Enter Password 2 :
  password3
->Enter Mnemonic 3 :
+> Enter Mnemonic 3 :
  node4
->Enter Password 3 :
+> Enter Password 3 :
  password4
 ```
 7. A docker compose file will be generated in `./output` and ready to be launched, change to the `output` directory
@@ -121,7 +121,7 @@ A genereated docker compose file will consist of 3 image containers per node. Th
 
     Ports required:
 
-    `1000` 
+    `10000` 
     
 3. Governance App
 
@@ -184,7 +184,7 @@ The command is broken down as follows
 
 `--debug` Prepends log messages with call-site location (file and line number)
 
-`-metrics` Enable metrics collection and reporting
+`--metrics` Enable metrics collection and reporting
 
 `--syncmode 'full'` Blockchain sync mode ("fast", "full", or "light")
 

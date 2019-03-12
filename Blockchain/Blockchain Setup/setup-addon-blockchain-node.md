@@ -1,3 +1,10 @@
+# One-Click Setup
+
+`script.sh` is a unix bash file that downloads and deploys one Ledgerium node (consists of Geth, Constellation/Tessera, and GovernanceUI Docker containers) in a single click. 
+
+[Download script.sh](https://github.com/ledgerium/ledgeriumsetup)
+
+
 # Setup blockchain "addon" node on a fresh linux machine
 
 The blockchain ecosystem is a combination of multiple technologies that come together. It is overwhelming to know that so much has been achieved in a short span. The tech stacks range from (not limited to this list) GoLang, NodeJs, Haskell, Metamask, Solidity and supporting Web3 technologies. Hence this will always remain as a living document for the team.
@@ -189,3 +196,36 @@ Check the ./logs/constellationLogs and ./logs/gethLogs folders are created.
     * Quorum maker
     * Eth-stats
 * Running `geth attach` command will work for quorum nodes.
+
+# Deconstructing the docker-compose.yml file
+
+A genereated docker compose file will consist of 3 image containers per node. These are as follows:
+
+1. Ledgerium Core
+
+    Purpose: This is the actual validator node
+
+
+    Ports required:
+
+    `30303` Network listening port
+
+    `8545` HTTP-RPC server listening port
+
+    `9000` WS-RPC server listening port
+
+2. Constellation or Tessera
+
+    Purpose: Quorum Transaction Manager - implementation of peer-to-peer encrypted message exchange for transaction privacy
+
+    Ports required:
+
+    `10000` 
+    
+3. Governance App
+
+    Purpose: Goveranance App contains smart contracts to manage admin and individual validators to come on platform
+
+    Ports required:
+
+    `3545` 

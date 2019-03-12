@@ -1,12 +1,14 @@
+# Setup blockchain "full" node on a fresh linux machine
+
+The blockchain ecosystem is a combination of multiple technologies that come together. It is overwhelming to know that so much has been achieved in a short span. The tech stacks range from (not limited to this list) GoLang, NodeJs, Haskell, Metamask, Solidity and supporting Web3 technologies. Hence this will always remain as a living document for the team.
+
 # One-Click Setup
 
 `script.sh` is a unix bash file that downloads and deploys one Ledgerium node (consists of Geth, Constellation/Tessera, and GovernanceUI Docker containers) in a single click. 
 
 [Download script.sh](https://github.com/ledgerium/ledgeriumsetup)
 
-# Setup blockchain "full" node on a fresh linux machine
-
-The blockchain ecosystem is a combination of multiple technologies that come together. It is overwhelming to know that so much has been achieved in a short span. The tech stacks range from (not limited to this list) GoLang, NodeJs, Haskell, Metamask, Solidity and supporting Web3 technologies. Hence this will always remain as a living document for the team.
+# Manual Setup
 
 ## Install Docker CE
 

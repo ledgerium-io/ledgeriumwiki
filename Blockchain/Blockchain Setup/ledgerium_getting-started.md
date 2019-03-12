@@ -1,8 +1,14 @@
-# Ledgerium Tools
+# One-Click Setup
 
-Generates a ready-to-run Docker file for deploying N nodes with IBFT consensus
+`script.sh` is a unix bash file that downloads and deploys one Ledgerium node (consists of Geth, Constellation/Tessera, and GovernanceUI Docker containers) in a single click. 
 
-# Prerequisities 
+[Download script.sh](https://github.com/ledgerium/ledgeriumsetup)
+
+
+# Manual Setup
+We use Ledgerium Tools to generates a ready-to-run Docker file for deploying N nodes with IBFT consensus
+
+## Prerequisities 
 ### NodeJS
 Confirm you have NodeJS installed by typing `node -v`, output should look like:
 
@@ -20,7 +26,7 @@ Docker version 18.09.2, build 6247962
 [Download Docker](https://www.docker.com/get-started)
 
 
-# Getting started   
+## Getting started   
 
 1. Download the ledgeriumtools repository
 ```

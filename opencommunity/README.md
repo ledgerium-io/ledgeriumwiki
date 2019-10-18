@@ -1,6 +1,13 @@
 # Ledgerium Blockchain Open Developer Community
 A repo for all wiki stuff and other findings to share within the Ledgerium team
 
+    ![alt text](https://github.com/ledgerium-io/ledgeriumwiki/blob/feature/lb-23/opencommunity/1*Q-UlZfOo-Z4NKjxYGHF4dA.png)
+# Community Developer Program
+This program is dedicated to individual developers who would like to contribute to various development projects running at the Ledgerium Foundation.
+
+The program membership is free with no strings attached. We won’t ask you to promote Ledgerium Foundation products, or to use Ledgerium branding in any event, or limit your work to any specific technologies, topics, or partners.
+[Blcokchain Developer Program](https://medium.com/ledgerium-io/join-our-ledgerium-blockchain-developer-program-a203209f46fb) 
+
 ## Community
 
 Most discussion about Ledgerium happens over email and GitHub, but those aren't the only way to interact with the Ledgerium Blockchain community. We also do chat and much more. Check out the following resources if you're looking for help, to discuss Ledgerium Blockchain development, or just stay up to date:
@@ -10,12 +17,10 @@ Most discussion about Ledgerium happens over email and GitHub, but those aren't 
 * __Github:__ Star us at [ledgerium](https://github.com/ledgerium-io) and use this to follow Ledgerium Blockchain development, raise issues, or contribute pull requests. If you're interested in development, please see the Contributing section below for details on our development process.
 * __Slack:__ Some committers and users are present in the channel `#Ledgerium` on the Ledgerium Slack team. Please use our invitation link to join, and once you join, add the `#Ledgerium` channel.
 * __Twitter:__ Follow us on Twitter at[@ledgerium](https://twitter.com/ledgerium?lang=en)
-* __Medium__: Folloe us on [Medium](https://medium.com/ledgerium-io/) 
-* __Techinical Documentation:__ http://docs.ledgerium.io
-* __Community Developer Program:__ https://medium.com/ledgerium-io/join-our-ledgerium-blockchain-developer-program-a203209f46fb 
+* __Medium__: Folloe us on [Medium](https://medium.com/ledgerium-io/) to get weekly updates and to read our technical blogs
+* __Techinical Documentation:__ http://docs.ledgerium.io to know more technical aspects about our blockchain
 
-    ![alt text](https://github.com/ledgerium-io/ledgeriumwiki/blob/feature/lb-23/opencommunity/1*Q-UlZfOo-Z4NKjxYGHF4dA.png)
-
+    
 ## Getting help
 The best place to get a wide variety of help about Ledgerium Blockchain is on the Ledgerium user group . You can also report issues and problems, or suggest new features, on [Github](https://github.com/ledgerium-io).
 

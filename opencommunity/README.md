@@ -1,7 +1,7 @@
 # Ledgerium Blockchain Open Developer Community
 A repo for all wiki stuff and other findings to share within the Ledgerium team
 
-    ![alt text](https://github.com/ledgerium-io/ledgeriumwiki/blob/feature/lb-23/opencommunity/1*Q-UlZfOo-Z4NKjxYGHF4dA.png)
+![alt text](https://github.com/ledgerium-io/ledgeriumwiki/blob/feature/lb-23/opencommunity/1*Q-UlZfOo-Z4NKjxYGHF4dA.png)
 # Community Developer Program
 This program is dedicated to individual developers who would like to contribute to various development projects running at the Ledgerium Foundation.
 

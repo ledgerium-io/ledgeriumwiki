@@ -1,47 +1,45 @@
-# Ledgerium Blockchain Open Developer Community
-
-![alt text](https://github.com/ledgerium-io/ledgeriumwiki/blob/feature/lb-23/opencommunity/1*Q-UlZfOo-Z4NKjxYGHF4dA.png)
-# Community Developer Program
+# Ledgerium Blockchain Community Developer Program
 This program is dedicated to individual developers who would like to contribute to various development projects running at the Ledgerium Foundation.
 
-The program membership is free with no strings attached. We won’t ask you to promote Ledgerium Foundation products, or to use Ledgerium branding in any event, or limit your work to any specific technologies, topics, or partners.
-[Blcokchain Developer Program](https://medium.com/ledgerium-io/join-our-ledgerium-blockchain-developer-program-a203209f46fb) 
+The program membership is free with no strings attached. We won’t ask you to promote Ledgerium Foundation products, or to use Ledgerium branding in any event, or limit your work to any specific technologies, topics, or partners. To know more 
+[Blockchain Developer Program](https://medium.com/ledgerium-io/join-our-ledgerium-blockchain-developer-program-a203209f46fb) 
+
+![alt text](https://github.com/ledgerium-io/ledgeriumwiki/blob/feature/lb-23/opencommunity/1*Q-UlZfOo-Z4NKjxYGHF4dA.png)
 
 ## Community
 
-Most discussion about Ledgerium happens over email and GitHub, but those aren't the only way to interact with the Ledgerium Blockchain community. We also do chat and much more. Check out the following resources if you're looking for help, to discuss Ledgerium Blockchain development, or just stay up to date:
+Most discussion about Ledgerium happens over email and GitHub, but those aren't the only way to interact with the Ledgerium Blockchain community. We also do chat and much more. Check out the following resources if you're looking for help, to discuss Ledgerium Blockchain development, or stay up to date:
 
 * __User mailing list:__ users@ledgerium.io for general discussion, questions, and announcements. This is the perfect place to ask for help if you need it!
 * __Developer mailing list:__ developers@ledgerium.io for discussion about project development.
-* __Github:__ Star us at [ledgerium](https://github.com/ledgerium-io) and use this to follow Ledgerium Blockchain development, raise issues, or contribute pull requests. If you're interested in development, please see the Contributing section below for details on our development process.
-* __Slack:__ Some committers and users are present on the channel [Ledgerium Slack](https://ledgerium.slack.com). If you are interested in joing the chanel please contact via users@ledgerium.io
+* __Github:__ Star us at [ledgerium](https://github.com/ledgerium-io) and use this to follow Ledgerium Blockchain development, raise issues, or submit pull requests. If you're interested in development, please see the Contributing section below for details on our development process.
+* __Slack:__ Some committers and users are present on the channel [Ledgerium Slack](https://ledgerium.slack.com). If you are interested in joining the channel please contact via users@ledgerium.io
 * __Twitter:__ Follow us on Twitter at[@ledgerium](https://twitter.com/ledgerium?lang=en)
 * __Medium__: Follow us on [Medium](https://medium.com/ledgerium-io/) to get weekly updates and to read our technical blogs
-* __Techinical Documentation:__ http://docs.ledgerium.io to know more technical aspects about our blockchain
+* __Technical Documentation:__ http://docs.ledgerium.io to know more technical aspects of our blockchain
 
     
 ## Getting help
-The best place to get a wide variety of help about Ledgerium Blockchain is on the Ledgerium user group . You can also report issues and problems, or suggest new features, on [Github](https://github.com/ledgerium-io).
+The best place to get a wide variety of support about Ledgerium Blockchain is on the Ledgerium user group. You can also report issues and problems, or suggest new features, on [Github](https://github.com/ledgerium-io).
 
 ## Contributing
-Ledgerium Blockchain is an Ethereum/Quorum based open public blockchain that will record public and private transactions between parties efficiently in a verifiable and permanent way. We are delighted to receive contributions of anything from minor fixes to big new features. 
+Ledgerium Blockchain is an Ethereum/Quorum based open public blockchain that will record public and private transactions between parties efficiently in a verifiable and permanent way. We are delighted to receive contributions of anything from minor fixes to significant new features. 
 
 ## What to work on
-If you have an itch to scratch, then by all means do that! Fixing bugs you run into, or adding features you need, are both immensely helpful.
+If you have an itch to scratch, then, by all means, do that! Fixing bugs you run into, or adding features you need, are both immensely helpful.
 
 If you're looking for some starter projects, we maintain a [list of issues suitable](https://github.com/ledgerium-io/ledgeriumwiki/issues) for new developers.
 
-There are plenty of ways to help outside writing ledgerium code. Code review of pull requests (even if you are not a committer), feature suggestions, reporting bugs, [documentation]() and usability feedback all matter immensely. Another big way to help is through [client libraries](https://github.com/ledgerium-io/), which are avaialble in a variety of languages. If you develop a new one, we'll be happy to include it in the list.
+There are plenty of ways to help outside writing ledgerium code. Code review of pull requests (even if you are not a committer), feature suggestions, reporting bugs, [documentation]() and usability feedback all matter immensely. Another significant way to help is through our [Repositories](https://github.com/ledgerium-io/), which are available in a variety of languages. If you develop a new one, we'll be happy to include it on the list.
 
 ## Getting your changes accepted
 
 Patches to Ledgerium are done through GitHub pull requests.
 
 Pull requests require one approval (+1) from an established committer on code and text (for documentation) levels. The exception is major architectural changes or API changes, and/or changes to
+warrant additional design and compatibility review. Such pull requests require design approvals from three different committers (one of them could also be the author of the pull request). For those, it can help to discuss things on the Ledgerium Blockchain Developer list or a Github issue beforehand.
 
-warrant additional design and compatibility review. Such pull requests require design approvals from three different committers (one of them could also be the author of the pull request). For those, it can help to discuss things on the Druid development list ...... or a github issue beforehand.
-
-In general please follow the [contributing guidelines]() when sending in pull requests. This will help review proceed as quickly as possible.
+In general, please follow the [contributing guidelines](https://github.com/ledgerium-io/ledgeriumwiki/blob/feature/lb-23/opencommunity/contributing_guidlines.md) when sending in pull requests. This will help review proceed as quickly as possible.
 
 ## Committers
 
@@ -62,11 +60,11 @@ You don't need to be a committer to contribute- pull requests are welcome from a
 * Vivek Bengre
 * Ivan
 * Electo
-* Rahul Golash
 * Kellson Ma
+* Rahul Golash
 ## Becoming a committer
 
-If you'd like to become a committer, that's great! Please contact one of the existing committers for a walk through the process. Basically, what we're looking for is an interest in ongoing contributions to Ledgerium.
+If you'd like to become a committer, that's great! Please contact one of the existing committers for a walk through the process. What we're looking for is an interest in ongoing contributions to Ledgerium.
 
 ## General committer guidelines
 
@@ -99,14 +97,14 @@ If you are an official Druid committer then congratulations! You are part of a f
 13. Limit the number of pull requests you are championing at the same time.
 
 14. Prioritize code reviews to look at pull requests that are blockers for the next release (see the Milestone marker on the pull request)
-15. Help serve as champion for pull requests that originate from new committers.
+15. Help serve as a champion for pull requests that originate from new committers.
 
 16. If you feel a pull request is required for the next release, mark it as such in the Milestone of the pull request.
 17. Do not comment on a pull request unless you are willing to follow up on the edits.
 
 18. Give priority to getting older pull requests merged. (Either as their champion or as an active commenter)
 
-19. And most importantly.. the PMC desires to ensure a positive and effective developer experience! If you find that things are not functioning to your expectations, pleaes raise the issue.
+19. And most importantly, the PMC desires to ensure a positive and effective developer experience! If you find that things are not functioning to your expectations, please raise the issue.
 
     Remember, we all want to see this project thrive!
 ## Governance
@@ -114,5 +112,5 @@ If you are an official Druid committer then congratulations! You are part of a f
 The PMC (Project Management Committee) is responsible for the administrative aspects of the Druid project. The responsibilities of the PMC include:
 * Approving releases
 * Nominating new committers
-* Maintaining the project's shared resources, including the github account, mailing lists, websites, social media channels, etc.
+* Maintaining the project's shared resources, including the Github account, mailing lists, websites, social media channels, etc.
 * Maintaining guidelines for the project

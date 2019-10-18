@@ -1,5 +1,4 @@
 # Ledgerium Blockchain Open Developer Community
-A repo for all wiki stuff and other findings to share within the Ledgerium team
 
 ![alt text](https://github.com/ledgerium-io/ledgeriumwiki/blob/feature/lb-23/opencommunity/1*Q-UlZfOo-Z4NKjxYGHF4dA.png)
 # Community Developer Program
@@ -15,9 +14,9 @@ Most discussion about Ledgerium happens over email and GitHub, but those aren't 
 * __User mailing list:__ users@ledgerium.io for general discussion, questions, and announcements. This is the perfect place to ask for help if you need it!
 * __Developer mailing list:__ developers@ledgerium.io for discussion about project development.
 * __Github:__ Star us at [ledgerium](https://github.com/ledgerium-io) and use this to follow Ledgerium Blockchain development, raise issues, or contribute pull requests. If you're interested in development, please see the Contributing section below for details on our development process.
-* __Slack:__ Some committers and users are present in the channel `#Ledgerium` on the Ledgerium Slack team. Please use our invitation link to join, and once you join, add the `#Ledgerium` channel.
+* __Slack:__ Some committers and users are present on the channel [Ledgerium Slack](https://ledgerium.slack.com). If you are interested in joing the chanel please contact via users@ledgerium.io
 * __Twitter:__ Follow us on Twitter at[@ledgerium](https://twitter.com/ledgerium?lang=en)
-* __Medium__: Folloe us on [Medium](https://medium.com/ledgerium-io/) to get weekly updates and to read our technical blogs
+* __Medium__: Follow us on [Medium](https://medium.com/ledgerium-io/) to get weekly updates and to read our technical blogs
 * __Techinical Documentation:__ http://docs.ledgerium.io to know more technical aspects about our blockchain
 
     

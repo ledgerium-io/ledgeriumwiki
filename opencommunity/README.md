@@ -1,22 +1,26 @@
-# LedgeriumWiki
+# Ledgerium Blockchain Open Developer Community
 A repo for all wiki stuff and other findings to share within the Ledgerium team
 
 ## Community
 
-Most discussion about Ledgerium happens over email and GitHub, but those aren't the only way to interact with the ledgerium community. We also do chat and much more. Check out the following resources if you're looking for help, to discuss ledgerium development, or just stay up to date:
+Most discussion about Ledgerium happens over email and GitHub, but those aren't the only way to interact with the Ledgerium Blockchain community. We also do chat and much more. Check out the following resources if you're looking for help, to discuss Ledgerium Blockchain development, or just stay up to date:
 
 * __User mailing list:__ users@ledgerium.io for general discussion, questions, and announcements. This is the perfect place to ask for help if you need it!
 * __Developer mailing list:__ developers@ledgerium.io for discussion about project development.
-* __Github:__ Star us at [ledgerium](https://github.com/ledgerium-io) and use this to follow Druid development, raise issues, or contribute pull requests. If you're interested in development, please see the Contributing section below for details on our development process.
+* __Github:__ Star us at [ledgerium](https://github.com/ledgerium-io) and use this to follow Ledgerium Blockchain development, raise issues, or contribute pull requests. If you're interested in development, please see the Contributing section below for details on our development process.
 * __Slack:__ Some committers and users are present in the channel `#Ledgerium` on the Ledgerium Slack team. Please use our invitation link to join, and once you join, add the `#Ledgerium` channel.
 * __Twitter:__ Follow us on Twitter at[@ledgerium](https://twitter.com/ledgerium?lang=en)
+* __Medium__: Folloe us on [Medium](https://medium.com/ledgerium-io/) 
+* __Techinical Documentation:__ http://docs.ledgerium.io
+* __Community Developer Program:__ https://medium.com/ledgerium-io/join-our-ledgerium-blockchain-developer-program-a203209f46fb 
 
+    ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
 ## Getting help
-The best place to get a wide variety of help about Ledgerium is on the Ledgerium user group . You can also report issues and problems, or suggest new features, on [Github](https://github.com/ledgerium-io).
+The best place to get a wide variety of help about Ledgerium Blockchain is on the Ledgerium user group . You can also report issues and problems, or suggest new features, on [Github](https://github.com/ledgerium-io).
 
 ## Contributing
-Ledgerium is a community-led project and we are delighted to receive contributions of anything from minor fixes to big new features. 
+Ledgerium Blockchain is an Ethereum/Quorum based open public blockchain that will record public and private transactions between parties efficiently in a verifiable and permanent way. We are delighted to receive contributions of anything from minor fixes to big new features. 
 
 ## What to work on
 If you have an itch to scratch, then by all means do that! Fixing bugs you run into, or adding features you need, are both immensely helpful.
@@ -43,16 +47,19 @@ You don't need to be a committer to contribute- pull requests are welcome from a
 ### Names
 
 Ajit Kular\
-Ash\
-Darshan\
+Ashwath Shankar\
+Darshan Kodipalli\
 Electo\
-P-one\
+Ivan\
+Kellson Ma\
 Praveen Challa\
 Ray Wang\
-RG\
-Shubh\
-Tan3\
-Vivek Bengre
+Rahul Golash\
+Sankar\
+Shubh Sharma\
+Suhani Shah\
+Nagaraj Tantri\
+Vivek Bengre\
 
 ## Becoming a committer
 

@@ -9,7 +9,7 @@ When submitting a pull request (PR), please use the following guidelines:
 * If you are adding or updating a dependency, be sure to update the version, license, or notice information in ___.yaml as appropriate to help ease LICENSE and NOTICE management for ASF releases.
 
 # GitHub Workflow
-1. Fork the apache/incubator-druid repository into your GitHub account
+1. Fork the ledgerium-io/<repo_name> repository into your GitHub account
 
     `https://github.com/ledgerium-io/<repo_name>/fork`
 2. Clone your fork of the GitHub repository
@@ -48,7 +48,7 @@ When submitting a pull request (PR), please use the following guidelines:
     ``` 
     https://github.com/<username>/<repo_name>
     ```
-    If you recently pushed your changes GitHub will automatically pop up a `Compare & pull` request button for any branches you recently pushed to. If you click that button it will automatically offer you to submit your pull-request to the apache/incubator-druid repository.
+    If you recently pushed your changes GitHub will automatically pop up a `Compare & pull` request button for any branches you recently pushed to. If you click that button it will automatically offer you to submit your pull-request to the ledgerium-io/<repo_name>.
     * Give your pull-request a meaningful title.
     * In the description, explain your changes and the problem they are solving.
 8. Addressing code review comments

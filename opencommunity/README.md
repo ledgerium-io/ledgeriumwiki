@@ -1,14 +1,14 @@
 # Ledgerium Blockchain Community Developer Program
 This program is dedicated to individual developers who would like to contribute to various development projects running at the Ledgerium Foundation.
 
-The program membership is free with no strings attached. We won’t ask you to promote Ledgerium Foundation products, or to use Ledgerium branding in any event, or limit your work to any specific technologies, topics, or partners. To know more 
-[Blockchain Developer Program](https://medium.com/ledgerium-io/join-our-ledgerium-blockchain-developer-program-a203209f46fb) 
+The program membership is free with no strings attached. We won’t ask you to promote Ledgerium Foundation products, or to use Ledgerium branding in any event, or limit your work to any specific technologies, topics, or partners. 
+Follow [Blockchain Developer Program](https://medium.com/ledgerium-io/join-our-ledgerium-blockchain-developer-program-a203209f46fb) to know more about it.
 
 ![alt text](https://github.com/ledgerium-io/ledgeriumwiki/blob/feature/lb-23/opencommunity/1*Q-UlZfOo-Z4NKjxYGHF4dA.png)
 
 ## Community
 
-Most discussion about Ledgerium happens over email and GitHub, but those aren't the only way to interact with the Ledgerium Blockchain community. We also do chat and much more. Check out the following resources if you're looking for help, to discuss Ledgerium Blockchain development, or stay up to date:
+Most discussion about Ledgerium Blockchain happens over email and GitHub, but those aren't the only way to interact with the Ledgerium Blockchain community. We also do chat and much more. Check out the following resources if you're looking for help, to discuss Ledgerium Blockchain development, or stay up to date:
 
 * __User mailing list:__ users@ledgerium.io for general discussion, questions, and announcements. This is the perfect place to ask for help if you need it!
 * __Developer mailing list:__ developers@ledgerium.io for discussion about project development.
@@ -16,7 +16,7 @@ Most discussion about Ledgerium happens over email and GitHub, but those aren't 
 * __Slack:__ Some committers and users are present on the channel [Ledgerium Slack](https://ledgerium.slack.com). If you are interested in joining the channel please contact via users@ledgerium.io
 * __Twitter:__ Follow us on Twitter at[@ledgerium](https://twitter.com/ledgerium?lang=en)
 * __Medium__: Follow us on [Medium](https://medium.com/ledgerium-io/) to get weekly updates and to read our technical blogs
-* __Technical Documentation:__ http://docs.ledgerium.io to know more technical aspects of our blockchain
+* __Technical Documentation:__ http://docs.ledgerium.io to know more technical aspects of our Ledgerium Blockchain
 
     
 ## Getting help
@@ -43,7 +43,7 @@ In general, please follow the [contributing guidelines](https://github.com/ledge
 
 ## Committers
 
-Committers are collectively responsible for Druid's technical management. This involves setting the direction of the project, contributing code, and reviewing code contributed by others.
+Committers are collectively responsible for Ledgerium Blockchain's technical management. This involves setting the direction of the project, contributing code, and reviewing code contributed by others.
 
 You don't need to be a committer to contribute- pull requests are welcome from anyone.
 ### Names
@@ -68,7 +68,7 @@ If you'd like to become a committer, that's great! Please contact one of the exi
 
 ## General committer guidelines
 
-If you are an official Druid committer then congratulations! You are part of a fantastic group of people. Here are some guidelines to follow to help ensure the Druid project continues to grow and improve:
+If you are an official Ledgerium Blockchain committer then congratulations! You are part of a fantastic group of people. Here are some guidelines to follow to help ensure the Ledgerium Blockchain project continues to grow and improve:
 
 1. You can merge your own pull request if it fits the rest of the criteria. A common thing to see is "+1 after travis" from other committers.
 
@@ -109,7 +109,7 @@ If you are an official Druid committer then congratulations! You are part of a f
     Remember, we all want to see this project thrive!
 ## Governance
 
-The PMC (Project Management Committee) is responsible for the administrative aspects of the Druid project. The responsibilities of the PMC include:
+The PMC (Project Management Committee) is responsible for the administrative aspects of the Ledgerium Blockchain project. The responsibilities of the PMC include:
 * Approving releases
 * Nominating new committers
 * Maintaining the project's shared resources, including the Github account, mailing lists, websites, social media channels, etc.

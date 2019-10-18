@@ -14,7 +14,7 @@ Most discussion about Ledgerium happens over email and GitHub, but those aren't 
 * __Techinical Documentation:__ http://docs.ledgerium.io
 * __Community Developer Program:__ https://medium.com/ledgerium-io/join-our-ledgerium-blockchain-developer-program-a203209f46fb 
 
-    ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+    ![alt text](https://github.com/ledgerium-io/ledgeriumwiki/blob/feature/lb-23/opencommunity/1*Q-UlZfOo-Z4NKjxYGHF4dA.png)
 
 ## Getting help
 The best place to get a wide variety of help about Ledgerium Blockchain is on the Ledgerium user group . You can also report issues and problems, or suggest new features, on [Github](https://github.com/ledgerium-io).
@@ -46,21 +46,20 @@ Committers are collectively responsible for Druid's technical management. This i
 You don't need to be a committer to contribute- pull requests are welcome from anyone.
 ### Names
 
-Ajit Kular\
-Ashwath Shankar\
-Darshan Kodipalli\
-Electo\
-Ivan\
-Kellson Ma\
-Praveen Challa\
-Ray Wang\
-Rahul Golash\
-Sankar\
-Shubh Sharma\
-Suhani Shah\
-Nagaraj Tantri\
-Vivek Bengre\
-
+* Ajit Kular
+* Ashwath Shankar
+* Darshan Kodipalli
+* Praveen Challa
+* Sankar
+* Shubh Sharma
+* Steve Slayo
+* Suhani Shah
+* Nagaraj Tantri
+* Vivek Bengre
+* Ivan
+* Electo
+* Rahul Golash
+* Kellson Ma
 ## Becoming a committer
 
 If you'd like to become a committer, that's great! Please contact one of the existing committers for a walk through the process. Basically, what we're looking for is an interest in ongoing contributions to Ledgerium.

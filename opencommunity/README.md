@@ -25,7 +25,7 @@ The best place to get a wide variety of support about Ledgerium Blockchain is on
 ## Contributing
 Ledgerium Blockchain is an Ethereum/Quorum based open public blockchain that will record public and private transactions between parties efficiently in a verifiable and permanent way. We are delighted to receive contributions of anything from minor fixes to significant new features. 
 
-## For Begginers
+## What to work on
 If you have an itch to scratch, then, by all means, do that! Fixing bugs you run into, or adding features you need, are both immensely helpful.
 
 If you're looking for some starter projects, we maintain a [list of issues suitable](https://github.com/ledgerium-io/ledgeriumwiki/issues) for new developers.

@@ -4,9 +4,6 @@ This program is dedicated to individual developers who would like to contribute 
 The program membership is free with no strings attached. We won’t ask you to promote Ledgerium Foundation products, or to use Ledgerium branding in any event, or limit your work to any specific technologies, topics, or partners. 
 Follow [Blockchain Developer Program](https://medium.com/ledgerium-io/join-our-ledgerium-blockchain-developer-program-a203209f46fb) to know more about it.
 
-## What is Blockchain?
-A blockchain is, in the simplest of terms, a time-stamped series of immutable record of data that is managed by cluster of computers not owned by any single entity. Each of these blocks of data (i.e. block)are secured and bound to each other using cryptographic principles (i.e. chain).The blockchain network has no central authority — it is the very definition of a democratized system. Since it is a shared and immutable ledger, the information in it is open for anyone and everyone to see.
-
 ![alt text](https://github.com/ledgerium-io/ledgeriumwiki/blob/master/opencommunity/opendevelopercommunity.jpg)
 
 ## Community

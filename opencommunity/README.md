@@ -4,7 +4,7 @@ This program is dedicated to individual developers who would like to contribute 
 The program membership is free with no strings attached. We won’t ask you to promote Ledgerium Foundation products, or to use Ledgerium branding in any event, or limit your work to any specific technologies, topics, or partners. 
 Follow [Blockchain Developer Program](https://medium.com/ledgerium-io/join-our-ledgerium-blockchain-developer-program-a203209f46fb) to know more about it.
 
-![alt text](https://github.com/ledgerium-io/ledgeriumwiki/blob/feature/lb-23/opencommunity/1*Q-UlZfOo-Z4NKjxYGHF4dA.png)
+![alt text](https://github.com/ledgerium-io/ledgeriumwiki/blob/master/opencommunity/opendevelopercommunity.jpg)
 
 ## Community
 

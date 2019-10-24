@@ -25,4 +25,15 @@ To get a more in depth knowledge [Blockchain Explained](https://www.investopedia
 # What is Ledgerium and how is it powered by Blockchain?
 The Blockledger brings Blockchain to the accounting and audit industry. We utilize a decentralized ledger through a triple entry accounting system. Ledgerium Blockchain is a distributed digital ledger that can record transactions between parties efficiently in a verifiable and permanent way. This allows the participants to verify and audit transactions instantly and inexpensively. The merits of Blockchain technology are exactly matching the requirements of the accounting and auditing industry. 
 # What is Ledgerium trying to solve? 
-Ledgerium aims to  
+Ledgerium focuses on creating a decentralized ledger through a triple entry accounting system that will revolutionise Audit Confirmation, AP/AR Management, and Trust Account Audit. The platform will allow tamper proof and secure transactions, while delivering significant time and cost saving compare to traditional platform and processes.
+
+__Ledgerium applications include:__ 
+* An accounting data Blockchain with a distributed ledger across many nodes in the Ledgerium Blockchain, which can also keep record of cryptocurrencies.
+
+* A Debtor and Creditor ecosystem with smart contract functionality, to optimise the traditional accounts payable and receivable function.
+
+* Real-time auditing of Blockchains, and the use of artificial intelligence to achieve auditing automation.
+
+* The internal control of Blockchains, including inventory, supply chain, ownership of tangible assets, ownership of intangible assets, internal procedures, etc.
+
+* A complete solution for accounting and Blockchain auditing software in the future.

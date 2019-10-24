@@ -4,11 +4,14 @@ This program is dedicated to individual developers who would like to contribute 
 The program membership is free with no strings attached. We won’t ask you to promote Ledgerium Foundation products, or to use Ledgerium branding in any event, or limit your work to any specific technologies, topics, or partners. 
 Follow [Blockchain Developer Program](https://medium.com/ledgerium-io/join-our-ledgerium-blockchain-developer-program-a203209f46fb) to know more about it.
 
+## What is Blockchain?
+A blockchain is, in the simplest of terms, a time-stamped series of immutable record of data that is managed by cluster of computers not owned by any single entity. Each of these blocks of data (i.e. block)are secured and bound to each other using cryptographic principles (i.e. chain).The blockchain network has no central authority — it is the very definition of a democratized system. Since it is a shared and immutable ledger, the information in it is open for anyone and everyone to see.
+
 ![alt text](https://github.com/ledgerium-io/ledgeriumwiki/blob/master/opencommunity/opendevelopercommunity.jpg)
 
 ## Community
-
 Most discussion about Ledgerium Blockchain happens over email and GitHub, but those aren't the only way to interact with the Ledgerium Blockchain community. We also do chat and much more. Check out the following resources if you're looking for help, to discuss Ledgerium Blockchain development, or stay up to date:
+
 
 * __User mailing list:__  xlg-user@ledgerium.io,[User group link](https://groups.google.com/a/theblockledger.net/forum/#!forum/xlg-user) for general discussion, questions, and announcements. This is the perfect place to ask for help if you need it!
 * __Developer mailing list:__ xlg-developer@ledgerium.io, [Developer group link](https://groups.google.com/a/theblockledger.net/forum/#!forum/xlg-developer) for discussion about project development.

@@ -28,6 +28,6 @@ Most discussion about Ledgerium Blockchain happens over email and GitHub, but th
 
 ####  &ensp;&ensp;&ensp;[Connecting to Ledgerium Blockchain](./LedgeriumBlockhain.md)
 
-#### &ensp;&ensp;&ensp;[Committer](./committer.md#Committers)
-
 #### &ensp;&ensp;&ensp;[Ledgerium Node](./ledgeriumnode.md)
+
+#### &ensp;&ensp;&ensp;[Committer](./committer.md)

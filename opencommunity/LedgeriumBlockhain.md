@@ -6,8 +6,8 @@ Users can receive testnet XLGs via Ledgerium Block Explorer or Ledgerium Faucet 
 
 ### Ledgerium TestNet
 We have two testnets:
-* ChainID (2018) - Toorak
-* ChainID (2019) - Flinders  
+* ChainID (2018) - [Toorak](http://toorak.ledgerium.io)
+* ChainID (2019) - [Flinders](http://flinders.ledgerium.io) 
 [For more information](https://docs.ledgerium.io/docs/ledgerium-blockchain)
 
 ### Download the Code

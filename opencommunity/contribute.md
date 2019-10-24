@@ -3,10 +3,10 @@ Ledgerium Blockchain is an Ethereum/Quorum based open public blockchain that wil
 
 ### For Beginners:
 * File bugs/tickets if they are not already filed.
-    * Software bugs
-    * Feature bugs
-    * 
-    * 
+    * Software bug
+    * Feature suggestion
+    * Documentation bug
+    * Documentation suggestion
 
 * Contribute for better documentation and raise a PR
 * If you're looking for some starter projects, we maintain a [list of issues suitable](https://github.com/ledgerium-io/ledgeriumwiki/issues) for new developers.

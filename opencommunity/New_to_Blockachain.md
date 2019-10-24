@@ -17,15 +17,30 @@ Information held on a blockchain exists as a shared — and continually integrat
 The reason why the blockchainis so popular:
 1. It is not owned by a single entity, hence it is decentralized
 2. The data is cryptographically stored inside
-3. The blockchain is immutable, so no one can       tamper with the data that is inside the         blockchain
-4. The blockchain is transparent so one can         track the data if they want to
+3. The blockchain is immutable, so no one can tamper with the data that is inside the blockchain
+4. The blockchain is transparent so one can track the data if they want to
 
 To get a more in depth knowledge [Blockchain Explained](https://www.investopedia.com/terms/b/blockchain.asp)
 
 ## What is Ledgerium and how is it powered by Blockchain?
-The Blockledger brings Blockchain to the accounting and audit industry. We utilize a decentralized ledger through a triple entry accounting system. Ledgerium Blockchain is a distributed digital ledger that can record transactions between parties efficiently in a verifiable and permanent way. This allows the participants to verify and audit transactions instantly and inexpensively. The merits of Blockchain technology are exactly matching the requirements of the accounting and auditing industry. 
+Ledgerium Blockchain is a distributed digital ledger that can record transactions between parties efficiently in a verifiable and permanent way. This allows the participants to verify and audit transactions instantly and inexpensively.Ledgerium Blockchain is an Ethereum/Quorum based distributed digital ledger that will record public and private transactions between parties efficiently in a verifiable and permanent way. 
+
+Some of the features of Ledgerium Blockchain are:
+* Distributed and Decentralised
+* Immutable
+* Public and Private Transactions
+* High Throughput
+* Scalable
+* High Availability
+* Secured
+
+
+
 ## What is Ledgerium trying to solve? 
-Ledgerium focuses on creating a decentralized ledger through a triple entry accounting system that will revolutionise Audit Confirmation, AP/AR Management, and Trust Account Audit. The platform will allow tamper proof and secure transactions, while delivering significant time and cost saving compare to traditional platform and processes.
+The CFEs estimated that the typical organization lost 5% of revenue in 2016 as a result of fraud. The total loss caused by the cases in the study exceeded \$6.3 billion, with an average loss per case of \$2.7 million.
+There are numerous fraud cases around the world, that have happened to different firms. And it is not surprising that it will keep happening again and again, as the current industry system has serious defects, the reasons being the ‘conflict of interest’ and ‘trust’.
+Auditors involved in verifying the accuracy of financial statements are in a strange position because they perform the audit by charging the clients. This behaviour creates a problem: the audited financial information may be compromised by the auditor in order to please the clients. Auditors only need to provide a reasonable assurance according to the risk assessment of a certain materiality level, and do not provide a complete guarantee of the figures.
+Accounting and financial transactions are ultimately made due to trust and transparency. The ability to back trace, modify and to issue false sales or manipulate the profits have led investors to have an inherent lack of trust in the business.
 
 
 __Ledgerium applications include:__ 
@@ -38,3 +53,8 @@ __Ledgerium applications include:__
 * The internal control of Blockchains, including inventory, supply chain, ownership of tangible assets, ownership of intangible assets, internal procedures, etc.
 
 * A complete solution for accounting and Blockchain auditing software in the future.
+
+## How Ledgerium try to solve this problem?
+The Block Ledger, a company behind Ledgerium Blockchain, brings an e-invoicing and financial accounting reconciliation product named Luca+ to the market place which leverages Ledgerium Blockchain to maintain audit trails and transparency. 
+
+Luca+ is a middleware SAAS based application which connects business and finance tools, allowing the communication and transfer of data between different platforms. For every state of the invoice, it is writing the transactions on __Ledgerium Blockchain__, which makes the invoice data immutable, transparent and secure.
